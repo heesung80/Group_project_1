@@ -4,4 +4,4 @@ When people discuss the "kind" of music they like, a common way to interpret thi
 ## Do song audio features of different genres have an effect on each other?
 Spotify provides scores of several different "audio features" about every song through their API. These features include measures for how likely someone can dance to a song, how likely the presence of spoken word is, how instrumental it is, and whether it sounds more positive or negative. In order to determine if any of these audio features had an effect on each other, we looked at regression models of all audio features to determine if any of the relationships seemed interesting.
 
-<img src="outputs/all_scatters.png">
+<img src="outputs/Group_projectall_scatters.png">
