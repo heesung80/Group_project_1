@@ -1,1 +1,2 @@
-# Group_project_1
+# What Makes a Genre?
+When people discuss the "kind" of music they like, a common way to interpret this is by genre. But what does that say about the quality of music within those genres? Our team sought to explore this question by looking at the Spotify API and comparing the qualities of a sampling of songs from each genre. By examining how the traits of songs, like popularity and various "audio features", differ between genres, people can gain a better understanding of how a genre can suit specific tastes.
