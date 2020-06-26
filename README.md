@@ -9,7 +9,7 @@ Spotify provides scores of several different "audio features" about every song t
 ## Which variables in this dataset seem to have a relationship?
 <h3> Energy and Danceability</h3>
 I regressed the energy variable against the danceability variable to see if a song's danceability were determined in part by a song's energy (or rather, if Spotify might use one variable to artificially define the other). It looks like they have a quadratic relationship, with a high level of overall variation.
-<img src="outputs/scatterDanceability_Energy.png">
+<img src="/group_project/Final_project/outputs/scatterDanceability_Energy.png">
 
 There is a problem however. Even though danceability should be the dependent variable in this analysis (the idea being that engergy is a causal factor in a song's danceability) We cannot express the data visually this way because the fit line would not express a function. In order for one variable to be a function of the other, there must be exactly one value of Y for every value of X. Here, there appears to be two. We must flip the IV and the DV, understanding that the underlying relationship would ultimately be the same.
 <img src="outputs/scatterDanceability_Energy.png">
