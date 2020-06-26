@@ -13,7 +13,9 @@ I regressed the energy variable against the danceability variable to see if a so
 
 There is a problem however. Even though danceability should be the dependent variable in this analysis (the idea being that engergy is a causal factor in a song's danceability) We cannot express the data visually this way because the fit line would not express a function. In order for one variable to be a function of the other, there must be exactly one value of Y for every value of X. Here, there appears to be two. We must flip the IV and the DV, understanding that the underlying relationship would ultimately be the same.
 <img src="/group_project/Final_project/outputs/scatterDanceability_Energy.png">
+
 We can see here visually that the relationship is quadratic: a linear regression line does not fit the data.
+
 <img src="/group_project/Final_project/outputs/regressEnergy_Danceability.png">
 A parabola fits the data nicely.
 (Note: seaborn does not provide slope and intercept. I am still working on figuring out how to collect these and to establish statistical significance using Python. Later though, I will demonstrate that the relationship is significant using different methods).
