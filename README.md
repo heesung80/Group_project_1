@@ -39,7 +39,7 @@ Spotify's popularity rating is based on a the total number of plays compared to 
 
 Among 122  genres queried, Pop was the most popular and holidays was the least popular. It would be interesting to explore if there is overlap between the genres and how much exists between Pop and other genres that score similarly high. Are there popular genres out there that aren't included in Pop music?
 
-<img src="outputs/Average_popularity_bar_graph.png">
+<img src="/group_project/Final_project/outputs/Average_popularity_bar_graph.png">
 
 ## Are there clear correlations in the audio qualities of genres, that derive from different continents?
 All Genres have Energy levels that spiked well above their respective other Audio Features. Speechiness, Danceability and Valence all had similar profiles throughout all the genres, so perhaps in the production of music, these influences each other. In conclusion - energy seems uninfluenced by other Audio Attributes, although all other Attribues are within a similar range.<br><br>
