@@ -39,3 +39,8 @@ reg energy tempo_sq loudness_sq loudness
 #original research question, but we discovered something else equally
 #interesting
 
+#If more variables were available, competing models could be tested
+#along with model comparative statistics like AIC and BIC.
+
+#As a side-note, I would be interested in learning about Spotify's
+#factor-analysis process
