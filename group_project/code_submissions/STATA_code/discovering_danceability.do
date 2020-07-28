@@ -41,16 +41,9 @@ reg danceability tempo_sq tempo loudness_sq loudness
 *********************
 reg energy tempo_sq tempo loudness_sq loudness
 
-*CONCLUSION*
-*This model has superior model fit. over 60% of the variance in energy is 
-*explained by the independent variables. All t values are statistically 
-*significant, as well as F. We did not discover the answer to our 
-*original research question, but we discovered something else equally
-*interesting
+*Step 9: Drop the problematic variable
+*Large standard error indicates multicolinearity
 
-***UPDATE!**
-*This is NOT the best fitting model, the standard error 
-*on the tempo_sq variable is incredibly large. This looks like
-*a multicolinearity issue. I have dropped this variable and the new R^2 value
-*is only marginally smaller than the previous one. By dropping the 
-*squared term on tempo, we increase the explanatory power of them model
+*FINAL MODEL
+reg energy  loudness_sq loudness tempo
+
